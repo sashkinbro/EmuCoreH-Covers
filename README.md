@@ -1,12 +1,12 @@
 # EmuCoreH-Covers
 
-Universal game cover repository for **EmuCoreH** and **Flycast**.
+Universal high-definition game cover repository for **EmuCoreH** and **Flycast**.
 
 ## Content
-- **Dreamcast Covers (`covers/`)**: 1,085 game covers scraped from TheGamesDB
-- **Arcade Covers (`arcade/`)**: 220 arcade covers from official Flycast repository
-- **3D Box Art (`covers/3d/` & `covers/3d/light/`)**: 1,085 Dreamcast 3D jewel cases for Dark and Light themes
-- **3D Arcade Box Art (`arcade/3d/` & `arcade/3d/light/`)**: 220 Arcade 3D cases for Naomi, Naomi 2, Atomiswave, and System SP
+- **Dreamcast Covers (`covers/`)**: 1,085 covers upscaled to 2x resolution with Lanczos + UnsharpMask sharpening & contrast enhancement
+- **Arcade Covers (`arcade/`)**: 220 arcade covers upscaled to 2x resolution with Lanczos + UnsharpMask sharpening
+- **3D Box Art (`covers/3d/` & `covers/3d/light/`)**: 1,085 Dreamcast 3D jewel cases (Dark & Light themes) with centered game title spines (Segoe UI Bold) and zero diagonal plastic glare
+- **3D Arcade Box Art (`arcade/3d/` & `arcade/3d/light/`)**: 220 Arcade 3D cases (Dark & Light themes) featuring arcade marquee headers, insert-coin footers, stylized wide-tracking spines (`NAOMI`, `NAOMI 2`, `ATOMISWAVE`, `SYSTEM SP`), uncropped 4:3 art, and zero ambient blur
 - **Index (`index.json` & `index.min.json`)**: Complete mapping of disc UIDs/product codes, titles, and arcade romsets
 
 ## Lookup Structure
