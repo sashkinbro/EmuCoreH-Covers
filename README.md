@@ -28,35 +28,37 @@ Arcade artwork comes from [Flycast content](https://github.com/flyinghead/flycas
 
 ## Additional arcade artwork
 
-The remaining 42 catalog entries use 24 newly sourced cover sets and 18 reviewed aliases. Original flyers and title screens identify the correct game families; program revisions and system-component ROMs share that game's art. Derby World Edition and World Edition EX, and all five StarHorse generations, remain separate. Derby 2000 and II flyers identify the respective games but do not claim to depict the Ver.2 / Ver.2.1 software updates specifically.
+All 42 previously missing catalog entries are covered by 24 distinct artwork sets and 18 revision/component aliases. The curated flat images use horizontal 4:3 artwork at 1280x960, filling the entire image area. Dark and light 3D versions use the existing transparent 800x800 case renderer, geometry, scale and platform branding. Portrait flyers, camera photographs of cabinets or screens, and generic NAOMI error/boot placeholders are excluded.
 
-Flat files are RGB JPEG at 1280x960 or 960x1280, with complete source art preserved. Dark and light 3D files use the same existing renderer, platform branding, transparent 800x800 canvas, box scale and margins as the rest of the repository. The Anpanman flyer photograph was perspective-corrected to the paper edges; no game art or text was redrawn.
+The batch contains 18 digital game title/gameplay images and two existing Cycraft title screens. Wide publisher race images use an undistorted 4:3 race-scene viewport. World Edition and World Edition EX remain separate. Derby 2000 and II title screens identify their respective game families; they do not claim to show the Ver.2 / Ver.2.1 update number.
 
-| Artwork | Verified source |
+Anpanman Popcorn Factory 2 and SWP Hopper Board use custom digital title cards with their exact names, approved for cases without suitable digital game art. Heat Up Hockey Image and StarHorse Progress Returns use original, unmodified publisher logo pixels on designed graphic backgrounds. These four graphic covers are designed artwork, not official game screenshots. Their backgrounds/title-card illustrations were created with image generation. No photographic source is included.
+
+| Artwork | Source / identity reference |
 | --- | --- |
-| Bingo Galaxy (main) (`bingogal`) | [original Sega Japanese arcade flyer](https://www.sega.jp/history/arcade/product/7994/) |
-| Galileo Factory (main) (`galilfac`) | [original Sega Japanese arcade flyer](https://www.sega.jp/history/arcade/product/7988/) |
-| Monopoly the Medal 2nd Edition (`monomedal`) | [original Sega Japanese arcade flyer](https://www.sega.jp/history/arcade/product/7340/) |
-| Heat Up Hockey Image (`huhimage`) | [original Sega Japanese arcade flyer](https://www.sega.jp/history/arcade/product/7308/) |
-| Brick People / Block PeePoo (`brickppl`) | [original Sega English arcade flyer front](https://gamesdb.launchbox-app.com/games/images/371459-brick-people) |
-| Dragon Treasure (Rev B) (`dragntr`) | [official promotional flyer front](https://www.sega.jp/history/arcade/product/8843/) |
-| Dragon Treasure 2 (Rev A) (`dragntr2`) | [official promotional flyer front](https://www.sega.jp/history/arcade/product/7361/) |
-| Dragon Treasure 3 (Rev A) (`dragntr3`) | [official promotional flyer front](https://www.sega.jp/history/arcade/product/7348/) |
-| Sega Yonin Uchi Mahjong MJ (Update Disc Ver.1.008, Japan) (CDP-10002B) (`mj1`) | [original 2002 promotional flyer front scan](https://gamesdb.launchbox-app.com/games/images/236736-sega-yonin-uchi-mahjong-mj) |
-| Soreike! Anpanman Popcorn Koujou 2 (`anpanman2`) | [photograph of authentic promotional brochure front](https://auctions.yahoo.co.jp/jp/auction/f1232887100) |
-| Oinori-daimyoujin Matsuri (`oinori`) | [authentic promotional flyer front scan](https://gamesdb.launchbox-app.com/games/images/37933-oinori-daimyoujin-matsuri) |
-| Club Kart for Cycraft (Rev A) (`clubkcyc`) | [title screen](https://gamesdb.launchbox-app.com/games/images/35582-club-kart-for-cycraft) |
-| Initial D Arcade Stage 3 Cycraft Edition (Rev B) (`inidv3cy`) | [title screen](https://gamesdb.launchbox-app.com/games/images/137246-initial-d-arcade-stage-ver-3-cycraft-edition) |
-| SWP Hopper Board (`hopper`) | [exact hardware photo](https://adb.arcadeitalia.net/dettaglio_mame.php?game_name=hopper) |
-| Derby Owners Club (Japan, Rev B) (`derbyoc`) | [real Sega promotional flyer scan](https://gamesdb.launchbox-app.com/games/images/130055-derby-owners-club) |
-| Derby Owners Club 2000 Ver.2 (Japan, Rev A) (`derbyo2k`) | [real Sega promotional flyer scan](https://gamesdb.launchbox-app.com/games/images/35882-derby-owners-club-2000) |
-| Derby Owners Club II Ver.2.1 (Japan, Rev B) (`derbyoc2`) | [real Sega/Hitmaker promotional flyer scan](https://gamesdb.launchbox-app.com/games/images/35883-derby-owners-club-ii) |
-| Derby Owners Club World Edition (Rev A) (`drbyocwa`) | [real Sega sales flyer scan](https://flyers.arcade-museum.com/videogames/show/4796) |
-| Derby Owners Club World Edition EX (Rev D) (`derbyocw`) | [real Sega promotional flyer scan](https://gamesdb.launchbox-app.com/games/images/137244-derby-owners-club-world-edition-ex) |
-| Star Horse (satellite) (`shorse`) | [real Sega promotional flyer scan](https://gamesdb.launchbox-app.com/games/images/39133-star-horse) |
-| Star Horse 2001 (satellite, Rev B) (`shors2k1`) | [real Sega promotional flyer scan](https://gamesdb.launchbox-app.com/games/images/237092-star-horse-2001) |
-| Star Horse 2002 (sound, Export/Taiwan) (`shors2k2`) | [real Sega promotional flyer scan](https://gamesdb.launchbox-app.com/games/images/236369-star-horse-2002) |
-| Star Horse Progress (satellite, Rev A) (`shorsep`) | [real Sega promotional flyer scan](https://gamesdb.launchbox-app.com/games/images/39134-star-horse-progress) |
-| Star Horse Progress Returns (satellite) (`shorsepr`) | [real Sega promotional flyer scan](https://gamesdb.launchbox-app.com/games/images/39135-star-horse-progress-returns) |
+| Brick People / Block PeePoo (`brickppl`) | [genuine 4:3 arcade game title screen](https://gamesdb.launchbox-app.com/games/images/371459-brick-people) |
+| Bingo Galaxy (main) (`bingogal`) | [official native landscape gameplay screenshot](https://www.sega.jp/history/arcade/product/7994/) |
+| Galileo Factory (main) (`galilfac`) | [Genuine 4:3 gameplay screenshot with game logo](https://www.arcade-history.com/?id=29988&n=galileo-factory&page=detail) |
+| Monopoly the Medal 2nd Edition (`monomedal`) | [Genuine 4:3 gameplay screenshot](https://www.arcade-history.com/?id=70945&n=monopoly-the-medal-2nd-edition&page=detail) |
+| Dragon Treasure (Rev B) (`dragntr`) | [actual full landscape game title screenshot](https://gamesdb.launchbox-app.com/games/images/102339-dragon-treasure) |
+| Dragon Treasure 2 (Rev A) (`dragntr2`) | [actual full landscape game title screenshot](https://gamesdb.launchbox-app.com/games/images/102340-dragon-treasure-ii) |
+| Dragon Treasure 3 (Rev A) (`dragntr3`) | [actual full landscape game title screenshot](https://gamesdb.launchbox-app.com/games/images/102345-dragon-treasure-iii) |
+| Sega Yonin Uchi Mahjong MJ (Update Disc Ver.1.008, Japan) (CDP-10002B) (`mj1`) | [original 2002 MJ landscape gameplay screenshot](https://gamesdb.launchbox-app.com/games/images/236736-sega-yonin-uchi-mahjong-mj) |
+| Oinori-daimyoujin Matsuri (`oinori`) | [actual native full4:3 Matsuri gameplay screenshot](https://db.hfsplay.fr/games/78851-oinori-daimyoujin-matsuri?lang=en) |
+| Derby Owners Club (Japan, Rev B) (`derbyoc`) | [actual game title screenshot](https://www.arcade-history.com/game/4139/derby-owners-club) |
+| Derby Owners Club 2000 Ver.2 (Japan, Rev A) (`derbyo2k`) | [actual game title screenshot](https://www.arcade-history.com/game/37093/derby-owners-club-2000) |
+| Derby Owners Club II Ver.2.1 (Japan, Rev B) (`derbyoc2`) | [actual dual-screen game title/program capture](https://www.arcade-history.com/game/31764/derby-owners-club-ii) |
+| Derby Owners Club World Edition (Rev A) (`drbyocwa`) | [native digital game title screenshot](https://gamesdb.launchbox-app.com/games/images/35884-derby-owners-club-world-edition) |
+| Derby Owners Club World Edition EX (Rev D) (`derbyocw`) | [actual game title screenshot](https://gamesdb.launchbox-app.com/games/images/137244-derby-owners-club-world-edition-ex) |
+| Star Horse (satellite) (`shorse`) | [official Sega landscape gameplay screenshot](https://www.sega.jp/history/arcade/product/8929/) |
+| Star Horse 2001 (satellite, Rev B) (`shors2k1`) | [official Sega landscape gameplay screenshot](https://www.sega.jp/history/arcade/product/8117/) |
+| Star Horse 2002 (sound, Export/Taiwan) (`shors2k2`) | [official Sega landscape gameplay screenshot](https://www.sega.jp/history/arcade/product/8101/) |
+| Star Horse Progress (satellite, Rev A) (`shorsep`) | [official Sega landscape gameplay screenshot](https://www.sega.jp/history/arcade/product/8837/) |
+| Soreike! Anpanman Popcorn Koujou 2 (`anpanman2`) | [custom digital title card](https://www.am-j.co.jp/newmachine/200210/013.html) |
+| SWP Hopper Board (`hopper`) | [custom digital title card](https://arcade.vastheman.com/minimaws/machine/hopper) |
+| Heat Up Hockey Image (`huhimage`) | [official publisher digital logo on designed background](https://www.sega.jp/history/arcade/product/7308/) |
+| Star Horse Progress Returns (satellite) (`shorsepr`) | [official publisher digital logo on designed background](https://www.sega.jp/history/arcade/product/15045/) |
+| Club Kart for Cycraft (`clubkcyc`) | [Digital title screen](https://gamesdb.launchbox-app.com/games/images/35582-club-kart-for-cycraft) |
+| Initial D Version 3 for Cycraft (`inidv3cy`) | [Digital title screen](https://gamesdb.launchbox-app.com/games/images/137246-initial-d-arcade-stage-ver-3-cycraft-edition) |
 
-`hopper` is a service controller, not a standalone game: its cover shows the actual SWP Hopper ROM board with the matching EPR-24083 chip label, also documented by [Citylan](https://citylan.it/index.php/SWP_Hopper_Board). `wccf1dup` is the WCCF 2001-2002 DIMM firmware updater, so it shares the corresponding WCCF 2001-2002 title art rather than borrowing a later football season's cover.
+`hopper` is a service controller rather than a standalone game. `wccf1dup` is the WCCF 2001-2002 DIMM firmware updater and shares that season's existing title artwork. Tools, raw research files and working graphics stay outside the tracked artwork repository.
