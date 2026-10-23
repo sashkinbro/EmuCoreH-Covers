@@ -2,6 +2,23 @@
 
 Universal high-definition game cover repository for **EmuCoreH** and **Flycast**.
 
+## Sega cartridge and CD systems
+
+The 2026-10-23 IGDB refresh adds 2,042 cover sets, each with a flat JPEG and transparent 800×800 dark/light WebP case variants:
+
+| Platform | Folder | Cover sets |
+| --- | --- | ---: |
+| Mega Drive / Genesis | `genesis/` | 1,118 |
+| Sega CD / Mega-CD | `sega_cd/` | 198 |
+| Sega 32X | `32x/` | 39 |
+| Master System | `master_system/` | 341 |
+| Game Gear | `game_gear/` | 245 |
+| SG-1000 | `sg_1000/` | 101 |
+
+Files use the IGDB game ID within the platform folder. For example, `genesis/<id>.jpg`, `genesis/3d/<id>.webp`, and `genesis/3d/light/<id>.webp`. The shared `index.json` preserves every existing Dreamcast title, serial and arcade mapping; new lookups live under `platforms[platformName]`. `sega_index.json` is the same platform-scoped subset. A game released on several systems has an entry in each applicable platform section, without replacing another system's mapping.
+
+Flat images and metadata come from [IGDB](https://www.igdb.com/) through its [official API](https://api-docs.igdb.com/); each game record retains its source image URL and flat-image SHA-256. Covers are only mapped when source art exists. The case variants are stylized renders, with system-specific labels and colors. Sega CD follows the scan's aspect ratio for jewel-case or longbox artwork, preserving the complete front image. These renders do not claim to reproduce every regional packaging variation. Existing Dreamcast and arcade artwork is unchanged.
+
 ## Content
 - **Dreamcast Covers (`covers/`)**: 1,085 covers upscaled to 2x resolution with Lanczos + UnsharpMask sharpening & contrast enhancement
 - **Arcade Covers (`arcade/`)**: 253 arcade covers upscaled to 2x resolution with Lanczos + UnsharpMask sharpening
