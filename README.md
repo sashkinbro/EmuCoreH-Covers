@@ -2,6 +2,14 @@
 
 Universal high-definition game cover repository for **EmuCoreH** and **Flycast**.
 
+## Sega Saturn
+
+The 2026-10-26 official IGDB platform 32 refresh includes 1,028 game entities. All 1,010 entities with source cover artwork have a flat JPEG and transparent 800×800 dark/light WebP case: `saturn/<igdb_id>.jpg`, `saturn/3d/<igdb_id>.webp`, and `saturn/3d/light/<igdb_id>.webp`. The 18 entities without IGDB cover art have catalog metadata and no invented artwork mapping.
+
+Lookups live under `platforms["Saturn"]`, with 1,968 exact normalized title keys and 1,308 serial keys. Ambiguous title aliases and serials shared by different entities are omitted. Serial associations use unique exact IGDB titles/alternative names matched to the [libretro Redump Saturn DAT](https://github.com/libretro/libretro-database/blob/master/metadat/redump/Sega%20-%20Saturn.dat), version 2026.10.07; Daytona USA and Sonic R product codes are additionally verified from the owner's disc headers. Edition and sequel names stay distinct; demos and other identity-changing DAT tags are excluded from automatic matching.
+
+Every image set was decoded and SHA-256 verified before indexing. Each game entry retains its IGDB source image URL and flat-image SHA-256. Saturn cases use the existing case geometry, preserve the complete front artwork, and add a dedicated SEGA SATURN banner; these are stylized renders rather than exact regional packaging replicas. All earlier platform maps and artwork are preserved.
+
 ## Sega cartridge and CD systems
 
 The 2026-10-23 IGDB refresh adds 2,604 cover sets, each with a flat JPEG and transparent 800×800 dark/light WebP case variants:
